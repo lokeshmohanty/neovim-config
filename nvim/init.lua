@@ -3,6 +3,9 @@ local fn = vim.fn
 local opt = vim.o
 local g = vim.g
 
+vim.o.background = "dark" -- or "light" for light mode
+vim.cmd([[colorscheme gruvbox]])
+
 -- <leader> key. Defaults to `\`. Some people prefer space.
 -- g.mapleader = ' '
 -- g.maplocalleader = ' '

@@ -76,6 +76,10 @@ with final.pkgs.lib; let
     plenary-nvim
     nvim-web-devicons
     vim-repeat
+    gruvbox
+    quarto-nvim
+    otter-nvim
+    lazy-nvim
     # ^ libraries that other plugins depend on
     # bleeding-edge plugins from flake inputs
     # (mkNvimPlugin inputs.wf-nvim "wf.nvim") # (example) keymap hints | https://github.com/Cassin01/wf.nvim
@@ -87,6 +91,9 @@ with final.pkgs.lib; let
     # language servers, etc.
     lua-language-server
     nil # nix LSP
+    quarto
+    lua51Packages.lua
+    luarocks
   ];
 in {
   # This is the neovim derivation
